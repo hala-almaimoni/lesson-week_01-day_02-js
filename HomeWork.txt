@@ -1,0 +1,43 @@
+<------- The Fortune Teller -------->
+
+var numOfChildren = 3;
+var partnerName = "Fatima";
+var geoLocation = "saudi arabia";
+var jobTitle = "programer";
+console.log("You will be a " + jobTitle + " in " + geoLocation + ", and married to " + partnerName + " with " + numOfChildren + " kids.");
+
+
+
+<------- The Age Calculator -------->
+
+var currentYear = 2019;
+var birthYear = 1996;
+console.log("you are " + (currentYear - birthYear));
+
+
+<------- The Age Calculator -------->
+var age = 22;
+var maxAge = 100;
+var years = maxAge - age;
+var amount = 60;
+console.log("You will need " + (amount * years) + " to last you until the ripe old age of " + maxAge);
+new Date().getFullYear();
+
+
+<------- The Geometrizer -------->
+
+
+var radius = 3;
+console.log("The circumference is " + (2 * 3.14 * radius));
+console.log("The area is " + (3.14 * radius * radius));
+
+
+
+<------- The Temperature Converter -------->
+
+var celsius = 20;
+var convertToF = (celsius * 1.8) + 32;
+console.log(celsius + " °C is " + convertToF + " °F");
+var fahrenheit = 75;
+var convertToC = (fahrenheit - 32) / 1.8;
+console.log(fahrenheit + "°F is " + convertToC + "°C.");
