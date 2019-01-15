@@ -19,8 +19,9 @@ console.log("you are " + (currentYear - birthYear));
 var age = 22;
 var maxAge = 100;
 var years = maxAge - age;
-var amount = 60;
-console.log("You will need " + (amount * years) + " to last you until the ripe old age of " + maxAge);
+var amountOfCoffee = 3;
+var supply = (amountOfCoffee * 365) * years
+console.log("You will need " + supply + " cup of coffee to last you until the ripe old age of " + maxAge);
 new Date().getFullYear();
 
 
